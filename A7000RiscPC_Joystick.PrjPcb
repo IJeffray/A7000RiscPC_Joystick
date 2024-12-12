@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 ConstraintManagerFlow=0
-IsVirtualBomDocumentRemoved=0
+IsVirtualBomDocumentRemoved=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -135,20 +135,20 @@ GenerateClassCluster=0
 DocumentUniqueId=XCYNZSPY
 
 [Parameter1]
-Name=Sch_RevNo
-Value=1
+Name=DrawnBy
+Value=Ian Jeffray
 
 [Parameter2]
-Name=Sch_ReleaseDate
-Value=June 2024
-
-[Parameter3]
 Name=Project_Title
 Value=A7000RiscPC_Joystick
 
+[Parameter3]
+Name=Sch_ReleaseDate
+Value=June 2024
+
 [Parameter4]
-Name=DrawnBy
-Value=Ian Jeffray
+Name=Sch_RevNo
+Value=1
 
 [Configuration1]
 Name=Sources
@@ -415,6 +415,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1065,6 +1070,7 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
