@@ -135,20 +135,20 @@ GenerateClassCluster=0
 DocumentUniqueId=XCYNZSPY
 
 [Parameter1]
-Name=DrawnBy
-Value=Ian Jeffray
+Name=Sch_RevNo
+Value=2
 
 [Parameter2]
+Name=Sch_ReleaseDate
+Value=April 2025
+
+[Parameter3]
 Name=Project_Title
 Value=A7000RiscPC_Joystick
 
-[Parameter3]
-Name=Sch_ReleaseDate
-Value=December 2024
-
 [Parameter4]
-Name=Sch_RevNo
-Value=2
+Name=DrawnBy
+Value=Ian Jeffray
 
 [Configuration1]
 Name=Sources
@@ -684,6 +684,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -848,6 +878,13 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
 
 [Difference Levels]
 Type1=1
@@ -932,6 +969,10 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
 
 [Electrical Rules Check]
 Type1=1
